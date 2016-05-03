@@ -4,13 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-def proc(n ):
-    if (n<0):
-        print '-', 
-        n = -n
-    if (n / 10):
-        proc(n / 10 )
-    print n % 10,
- 
-proc(-345 )
-
+my_list = [s.lower() for s in 'Life is short, you need Python.'.split(' ')]
+print my_list
+print 'short' in my_list
+print my_list[5]
