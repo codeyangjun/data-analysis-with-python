@@ -4,7 +4,6 @@ Spyder Editor
 
 This is a temporary script file.
 """
-my_list = [s.lower() for s in 'Life is short, you need Python.'.split(' ')]
-print my_list
-print 'short' in my_list
-print my_list[5]
+import numpy as np
+a = np.array([(1, 2, 3), (4, 5, 6), (7, 8, 9)])
+print a[[2]].sum()
